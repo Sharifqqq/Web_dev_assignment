@@ -1,0 +1,121 @@
+body {
+    background-color: rgb(213, 255, 255);
+}
+
+
+h1 {
+    font-family: "Playwrite NO", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: blueviolet;
+    text-align: center;
+}
+
+h2 {
+
+    color: orange;
+}
+
+
+h3 {
+
+    color: orange;
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.intro_class {
+    color: rgb(0, 255, 34);
+    background-color: rgb(149, 0, 255);
+}
+
+#style_heading {
+    text-decoration: underline;
+}
+
+.feedback_page {
+    color: rgb(255, 0, 200);
+}
+
+.css_form_header {
+    background-color: rgb(255, 209, 209);
+}
+
+.css_basic_info {
+    background-color: rgb(169, 255, 147);
+}
+
+.css_form_email {
+    background-color: rgb(255, 231, 146);
+}
+
+.css_form_satisfaction {
+    background-color: rgb(169, 255, 147);
+}
+
+.css_form_intrest {
+    background-color: rgb(255, 231, 146);
+}
+
+.css_form_footer {
+    background-color: rgb(169, 255, 147);
+}
+
+.box {
+  Width: 300px;
+Padding: 20px;
+Border: 2px solid black;
+Margin: 15px;
+    box-sizing: border-box; 
+}
+
+.style_text{
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 2px solid black;
+    width: calc(100%-4px);
+    box-sizing: border-box;
+}
+
+.highlight{
+    color:blueviolet;
+    font-weight: bold;
+}
+
+.navbar{
+    position:fixed;
+    top :0;
+    left:0;
+    z-index:9999;
+    width:100%;
+    background-color: rgb(0, 255, 26);
+    padding:15px;
+   
+}
+
+ .main_content{
+    position:relative;
+}  
+
+.important-box {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  background-color: yellow;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+body {
+    padding-top: 80px; 
+}
+
+.sticky_heading{
+    position:sticky;
+    top: 49px;
+    background-color: rgb(51, 0, 255);
+}

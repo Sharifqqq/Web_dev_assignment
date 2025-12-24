@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Playwrite+NO:wght@100..400&display=swap"
+        rel="stylesheet">
+
+<style>
+    legend
+        {
+            color :rgb(17, 0, 255);
+            font-weight: bold;
+        }
+</style>
+
+
+</head>
+
+<body class="feedback_page">
+    <div class="css_form_header">
+        <header>
+            <h1>Feedback Form</Form>
+            </h1>
+            <p>We value your input !</p>
+        </header>
+    </div>
+
+    <main>
+        <form action="#" method="POSt">
+            <div class="css_basic_info">
+                <fieldset>
+                    <legend style="color :brown; font-weight: bold">Basic Information</legend>
+                    <label for="full-name">Full Name:</label>
+                    <br>
+                    <input type="text" id="full-name" name="full-name" required placeholder="Enter your full name"
+                        minlength="2" maxlength="50">
+                    <br><br>
+                </fieldset>
+            </div>
+
+            <div class="css_form_email">
+                <label for="email">Email Address</label>
+                <br>
+                <input type="email" id="email" required placeholder="example@gmail.com">
+                <br><br>
+            </div>
+
+            <div class="css_form_satisfaction">
+            <fieldset>
+                <legend>How satisfied are you ?</legend>
+                <input type="radio" id="very-satisfied" name="rating" value="very-satisfied" required>
+                <label for="very-satisfied">Very satisfied</label>
+                <br>
+
+                <input type="radio" id="satisfied" name="rating" value="satisfied">
+                <label for="satisfied">Satisfied</label>
+                <br>
+
+                <input type="radio" id="neutral" name="rating" value="neutral">
+                <label for="neutral">Neutral</label>
+                <br>
+
+                <input type="radio" id="unsatisfied" name="rating" value="unsatisfied">
+                <label for="unsatisfied">Unsatisfied</label>
+                <br>
+
+            </fieldset>
+            </div>
+
+
+            <div class="css_form_intrest">
+                <fieldset>
+                    <legend>Intrests (check all that apply)</legend>
+                    <input type="checkbox" id="web-dev" name="intrests" value="web-dev">
+                    <label for="web-dev">Web dev</label>
+                    <br>
+
+                    <input type="checkbox" id="mobile-dev" name="intrests" value="mobile-dev">
+                    <label for="mobile-dev">Mobile dev</label>
+                    <br>
+
+                    <input type="checkbox" id="ai/ml" name="intrests" value="ai/ml">
+                    <label for="ai/ml">AI/ML</label>
+                    <br>
+
+                </fieldset>
+            </div>
+
+            <div class="css_form_footer">
+            <label for="country">Select your country</label>
+            <select id="country" name="country" required>
+
+                <option value="" disabled selected>Select a country</option>
+                <option value="usa">United States</option>
+                <option value="nepal">Nepal</option>
+                <option value="india">India</option>
+                <option value="saudi">Saudi</option>
+            </select><br><br>
+
+            <label for="feedback">Write your feedback here</label>
+            <textarea id="feedback" name="feedback" rows="5" cols="40" required placeholder="Share your thoughts..."
+                minlength="10" maxlength="500"></textarea>
+            <br><br>
+
+            <input type="submit" value="Submit Feedback">
+        </form>
+
+        <p><a href="index.html">Back to home</a></p>
+</div>
+    </main>
+
+
+
+
+</body>
+
+</html>
